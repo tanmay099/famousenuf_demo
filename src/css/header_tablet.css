@@ -1,0 +1,273 @@
+@media all and (max-width: 1023px) and (min-width: 600px){
+  .App{
+ width: 100vw;
+    margin: 0;
+    padding: 0;
+height: 3360px;
+background: #FFFFFF;
+ 
+} 
+  
+  .bussinesManimg2{
+    display: none;
+      }
+
+ .fbtext{
+      flex: 1 2 60%;
+      height: 105px;
+      line-height: 105px;
+    text-align: center;
+  
+
+    
+  }
+ 
+    .tagline{
+position: absolute;
+width: 60%;
+height: 5%;
+left: 10%;
+top: 25%;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 25px;
+font-size: 24px;
+
+color: #FFFFFF;
+
+}
+.man_in_tablet{
+
+  padding-top: 8px;
+
+}
+.atScale{
+  font-family: Open Sans;
+  font-weight: bold;
+}
+.famous_top{
+  display: flex;
+  flex-flow: row;
+  height: 80%;
+  width: 100%
+  
+}
+.famous_man{
+  display: none;
+}
+  /* flex: 1 3 10%;
+  display: flex;
+  padding-left: 5%;
+  flex-flow: column; */
+
+.famous_man > .parts{
+  justify-content: flex-end;
+  flex:  1 2 50%;
+  padding-top: 40%;
+  padding-bottom: 0%;
+  padding-left: 20px;
+  margin-top: auto;
+  display: none;
+  
+  
+}
+
+.famous_form{
+  background-image: url('../images/bubbles.gif');
+     background-repeat: no-repeat;
+    background-size: 150px 350px;
+    background-position: 20% 40%;
+  position: relative;
+  flex: 1 3 55%;
+  /* left: -15%; */
+}
+
+.famous_girl_post{
+   background-image: url('../images/bubbles.gif');
+     background-repeat: no-repeat;
+    background-size: 150px 350px;
+    background-position: right top;
+  flex: 1 3 50%;
+  position: relative;
+  /*top: 20%;*/
+  display: flex;
+  flex-flow: column;
+}
+.post{
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  bottom: -25px;
+  flex: 1 2 70%;
+  
+}
+.post1{
+  order: 2;
+  flex: 1 2 50%;
+  
+   max-width: 70%;
+    height: auto;
+    width: auto\9;
+
+   /* ie8 */
+}
+.post3{
+  order: 1;
+    flex: 1 2 40%;
+
+  
+}
+.post2{
+
+  display: none;
+ 
+}
+
+
+.famous_girl{
+  justify-content: flex-bottom;
+  display: flex;
+  flex-flow: space-around;
+  flex: 1 2 30%;
+}
+.famous_girl2{
+  display: none;
+}
+.famous_girl_img{
+    max-width: 60%;
+    position: relative;
+    left: 15px;
+    z-index: 4;
+    height: auto;
+    width: auto\9;
+  flex: 1 2 80%;
+}
+.hotchick_img{
+  flex: 1 2 10%;
+  z-index: 4;
+  position: relative;
+  top: -30px;
+  
+  
+}
+
+  .header{
+  background-image: url(../images/desktop_bg.png);
+position: absolute;
+top: 0px;
+background-size: Auto 476px;
+width: 100%;
+    height: 476px;
+  
+  
+  
+}
+.fbtextspan{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+    display: inline-block;
+vertical-align: middle;
+font-size: 16px;
+line-height: 16px;
+color: #4A4A4A;
+
+    }
+.fbstart{
+  background: #F5F6F7;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  position: absolute;
+   display: flex;
+    flex-flow: row;
+    width: 100%;
+    top: 476px;
+    height: 105px;
+ }
+.fbstart_div{
+   flex: 1 2 40%;
+    width:   50%;
+    height: 100%;
+    
+    
+}
+  
+  .fbstart_img{
+    padding-left: 20%;
+    margin-top: 37px;
+    width: 88px;
+  height: 30px;
+  }
+  
+.get_famous_form {
+              box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);   
+  width: 75%;
+  border-radius: 4px;
+                position: absolute;
+                left: 10%;
+                /* right: -15%; */
+                top: 40%;
+                height: 40.95px;
+                margin:50px auto;
+               
+}
+.email_enter {
+  width: 65%;
+  border-radius: 4px;
+  height: 95%;
+                 /*padding-top: 13px;*/
+                 /*padding-left: 16px;*/
+                 /*padding-bottom: 13px;*/
+                background: white;
+                font-family: Open Sans;
+                border-top-right-radius:  0px; 
+                border-bottom-right-radius: 0px;
+               /*text-align: left;*/
+font-style: normal;
+font-weight: normal;
+  /*box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);*/
+                font-size: 12px;
+                border:0px solid #dbdbdb;
+}
+.button_get_famous {
+  width:  35%;
+  height: 100%;
+    /*box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);*/
+                position:relative;
+                /*padding-top: 13px;*/
+                /*padding-left: 3%;*/
+             /*padding-right: 3%;*/
+                /*padding-bottom: 13px;*/
+                /*left:-8px;*/
+                font-size: 12px;
+                font-family: Open Sans;
+font-style: normal;
+font-weight: Bold;
+letter-spacing: -0.0228571em;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+                border-top-left-radius:  0px; 
+                border-bottom-left-radius: 0px;
+                border:0px solid #FFB000;
+                background-color: #FFB000;
+                  transition: width 1s;
+}
+.button_get_famous:hover{
+ background-color: #FFA800;
+  
+}
+
+.hotchick_img_mob{
+  display: none;
+}
+
+
+
+
+  
+}
+
+
+
