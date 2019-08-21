@@ -662,11 +662,11 @@ Each customer can get 5+ friends onboard!<span className="bold_text"> Get upto 1
             </div>
             </div>
             <div className="banner_steps">
-          <div className="cube"><div className="paradiv"><span class="HeadText"><span className="hide">1</span> Create<img className="headNumber" src={require('../images/create.png')}/></span><span className="paraQuote">a campaign in a minute!</span></div></div>
-          <div className="cube"><div className="paradiv"><span class="HeadText"><span className="hide">2</span> Discover<img className="headNumber" src={require('../images/discover.png')}/></span><span className="paraQuote">your most influential customers</span></div></div>
-          <div className="cube"><div className="paradiv"><span class="HeadText"><span className="hide">3</span> Activate<img className="headNumber" src={require('../images/activiate.png')}/></span><span className="paraQuote">them on social media with our SAAS platform</span></div></div>
-          <div className="cube"><div className="paradiv"><span class="HeadText"><span className="hide">4</span> Appreciate<img className="headNumber" src={require('../images/Star.png')}/></span><span className="paraQuote">their loyalty as you see fit</span></div></div>
-          <div className="cube"><div className="paradiv"><span class="HeadText"><span className="hide">5</span> Analyse<img className="headNumber" src={require('../images/analyze.png')}/></span><span className="paraQuote">the results using our advanced dashboard</span></div></div>
+                    <div className="cube"><div className="paradiv"><span className="HeadText"><span className="hide">1</span> Create<img className="headNumber" src={require('../images/create.png')}/></span><span className="paraQuote">a campaign in a minute!</span></div></div>
+                    <div className="cube"><div className="paradiv"><span className="HeadText"><span className="hide">2</span> Discover<img className="headNumber" src={require('../images/discover.png')}/></span><span className="paraQuote">your most influential customers</span></div></div>
+                    <div className="cube"><div className="paradiv"><span className="HeadText"><span className="hide">3</span> Activate<img className="headNumber" src={require('../images/activiate.png')}/></span><span className="paraQuote">them on social media with our SAAS platform</span></div></div>
+                    <div className="cube"><div className="paradiv"><span className="HeadText"><span className="hide">4</span> Appreciate<img className="headNumber" src={require('../images/Star.png')}/></span><span className="paraQuote">their loyalty as you see fit</span></div></div>
+                    <div className="cube"><div className="paradiv"><span className="HeadText"><span className="hide">5</span> Analyse<img className="headNumber" src={require('../images/analyze.png')}/></span><span className="paraQuote">the results using our advanced dashboard</span></div></div>
           
            
             <div className="cube"><div className="raisedButton">Learn More</div></div>
