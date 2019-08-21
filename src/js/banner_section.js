@@ -60,9 +60,9 @@ const radioButton = {
   width:  24,
   height: 24,
 };
-const radiobuttonStyle ={
-  color: "#FFFFFF",  
-};
+// const radiobuttonStyle ={
+//   color: #FFFFFF,  
+// };
 class Banners extends React.Component{
 
 constructor(props) {
@@ -561,7 +561,7 @@ day.
       onClick={this.nextQ}
       >
      <span className="next_span">Next</span>
-     <i className="material-icons md-48" style={arrow_color}>keyboard_arrow_right</i>
+     <i className="material-icons md-48" >keyboard_arrow_right</i>
      </div>
     </div>
       
@@ -589,7 +589,7 @@ Besides, 98% people voted for this answer.</span></span>
       onClick={this.nextQ}
       >
      <span className="next_span">Next</span>
-     <i className="material-icons md-48" style={arrow_color}>keyboard_arrow_right</i>
+     <i className="material-icons md-48" >keyboard_arrow_right</i>
      </div>
     
       
