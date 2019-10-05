@@ -1,12 +1,23 @@
-@media all and (max-width: 1023px) and (min-width: 600px){
+@media all and (max-width: 1023px) and (min-width: 660px){
   .App{
  width: 100vw;
     margin: 0;
     padding: 0;
-height: 3360px;
+height: 3300px;
 background: #FFFFFF;
  
 } 
+.bussinesManimg{
+    position: relative;
+  top: 0%;
+  left: 15%;
+ width: 81px;
+
+ height: auto;
+ max-height: 153px;
+  
+  
+}
   
   .bussinesManimg2{
     display: none;
@@ -14,8 +25,8 @@ background: #FFFFFF;
 
  .fbtext{
       flex: 1 2 60%;
-      height: 105px;
-      line-height: 105px;
+      height: 60px;
+      line-height: 60px;
     text-align: center;
   
 
@@ -24,13 +35,13 @@ background: #FFFFFF;
  
     .tagline{
 position: absolute;
-width: 60%;
+width: 70%;
 height: 5%;
 left: 10%;
 top: 25%;
 font-family: Open Sans;
 font-style: normal;
-font-weight: normal;
+font-weight: bold;
 line-height: 25px;
 font-size: 24px;
 
@@ -45,6 +56,7 @@ color: #FFFFFF;
 .atScale{
   font-family: Open Sans;
   font-weight: bold;
+  color: #FFB000;
 }
 .famous_top{
   display: flex;
@@ -76,25 +88,60 @@ color: #FFFFFF;
 .famous_form{
   background-image: url('../images/bubbles.gif');
      background-repeat: no-repeat;
-    background-size: 150px 350px;
-    background-position: 20% 40%;
+    background-size: 150px 250px;
+    background-position: 20% top;
   position: relative;
+  width: 100%;
   flex: 1 3 55%;
   /* left: -15%; */
 }
+ .bubbles{
+      
+        width: 150px;
+        height: 225px;
+        background-color: transparent;
+        z-index: 4;
+      }
+.famous_chik{
+  /*top: 15vh;*/
+  flex: 1 3 20%;
+  display: flex;
+  position: relative;
+  width: 90%;
+  /*height: 75vh;*/
+  flex-flow: column;
+  
+}
+.parts_bubble{
+  display: flex;
+  flex:  1 2 378px; 
+  flex-flow:column;
+  justify-content: center;
+  
+  
+}
 
+.parts{
+display: flex;
+  /*justify-content: flex-start;*/
+  flex:  1 2 153px;
+  /*padding-top: 70%;*/
+  
+  /*padding-left: 10%;*/
+  margin-top: auto;
+  
+  
+  
+}
 .famous_girl_post{
-   background-image: url('../images/bubbles.gif');
-     background-repeat: no-repeat;
-    background-size: 150px 350px;
-    background-position: right top;
+
   flex: 1 3 50%;
   position: relative;
   /*top: 20%;*/
   display: flex;
   flex-flow: column;
 }
-.post{
+.post_tab{
   display: flex;
   flex-flow: column;
   position: relative;
@@ -103,12 +150,10 @@ color: #FFFFFF;
   
 }
 .post1{
-  order: 2;
+
   flex: 1 2 50%;
-  
-   max-width: 70%;
-    height: auto;
-    width: auto\9;
+  display: none;
+
 
    /* ie8 */
 }
@@ -123,7 +168,28 @@ color: #FFFFFF;
   display: none;
  
 }
+.post{
+  
+  display: none;
+  
+}
 
+.post_mob{
+  
+  display: none;
+  
+}
+.post4{
+    order: 2;
+    z-index: 4;
+     max-width: 100%;
+     position: relative;
+     top: 20%;
+     left: 0%;
+    height: auto;
+    width: auto\9;
+  display: block;
+}
 
 .famous_girl{
   justify-content: flex-bottom;
@@ -137,7 +203,7 @@ color: #FFFFFF;
 .famous_girl_img{
     max-width: 60%;
     position: relative;
-    left: 15px;
+    left: 30px;
     z-index: 4;
     height: auto;
     width: auto\9;
@@ -174,16 +240,29 @@ line-height: 16px;
 color: #4A4A4A;
 
     }
+    .bussines_chik{
+  position: relative;
+  top: 0%;
+  left: 15%;
+ width: 81px;
+
+
+
+ height: 153px;
+
+}
+    
 .fbstart{
   background: #F5F6F7;
   border: 1px solid #F3F3F3;
   box-sizing: border-box;
   position: absolute;
    display: flex;
+   z-index: 4;
     flex-flow: row;
     width: 100%;
     top: 476px;
-    height: 105px;
+    height: 60px;
  }
 .fbstart_div{
    flex: 1 2 40%;
@@ -194,10 +273,15 @@ color: #4A4A4A;
 }
   
   .fbstart_img{
-    padding-left: 20%;
-    margin-top: 37px;
+    margin-left: 20%;
+    margin-top: 15px;
     width: 88px;
   height: 30px;
+  }
+  .man_in_tablet{
+max-height: 150px;
+max-width: 105px;
+
   }
   
 .get_famous_form {
@@ -208,14 +292,15 @@ color: #4A4A4A;
                 left: 10%;
                 /* right: -15%; */
                 top: 40%;
-                height: 40.95px;
+                height: 40px;
                 margin:50px auto;
                
 }
 .email_enter {
   width: 65%;
   border-radius: 4px;
-  height: 95%;
+  height: 40px;
+   line-height: 40px;
                  /*padding-top: 13px;*/
                  /*padding-left: 16px;*/
                  /*padding-bottom: 13px;*/
@@ -232,7 +317,9 @@ font-weight: normal;
 }
 .button_get_famous {
   width:  35%;
-  height: 100%;
+  height: 40px;
+  line-height: 38.88px;
+  /*line-height: 38px;*/
     /*box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);*/
                 position:relative;
                 /*padding-top: 13px;*/
@@ -252,7 +339,7 @@ letter-spacing: -0.0228571em;
                 border-bottom-left-radius: 0px;
                 border:0px solid #FFB000;
                 background-color: #FFB000;
-                  transition: width 1s;
+                  /*transition: width 1s;*/
 }
 .button_get_famous:hover{
  background-color: #FFA800;
@@ -264,10 +351,93 @@ letter-spacing: -0.0228571em;
 }
 
 
-
-
-  
+.post_tab img.post4 {
+  position: absolute;
+  /*top: 0px;*/
+  left: 0px;
+  color: white;
+  opacity: 0;
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+ -webkit-animation: imageAnimation 30s linear infinite 0s;
+  -moz-animation: imageAnimation 30s linear infinite 0s;
+  -o-animation: imageAnimation 30s linear infinite 0s;
+  -ms-animation: imageAnimation 30s linear infinite 0s;
+  animation: imageAnimation 30s linear infinite 0s; 
+  }
+  .post_tab > img:nth-child(2)  {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.post_tab > img:nth-child(3) {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.post_tab > img:nth-child(4) {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.post_tab> img:nth-child(5) {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
 }
 
 
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
 
+@-o-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation { 
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0}
+    100% { opacity: 0 }
+}
+  
+  
+
+
+
+
+}

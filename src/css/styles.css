@@ -1,0 +1,27 @@
+@font-face {
+font-family: "Open Sans";
+src: url("./fonts/OpenSans-Regular.ttf");
+
+
+}    
+@font-face {
+font-family: "Open Sans";
+
+src: url("./fonts/OpenSans-Bold.ttf") ;
+
+}   
+
+@font-face {
+font-family: "Open Sans";
+src: url("./fonts/OpenSans-ExtraBold.ttf"); 
+
+}   
+
+@font-face {
+font-family: "Open Sans Condensed";
+src: url("./fonts/Open_Sans_Condensed/OpenSansCondensed-Light.ttf");
+src: 
+url("./fonts/Open_Sans_Condensed/OpenSansCondensed-Bold.ttf");
+
+}
+

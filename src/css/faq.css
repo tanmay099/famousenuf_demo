@@ -1,0 +1,173 @@
+
+.faq{
+    width: 100%;
+    height: auto;
+  
+     
+
+}
+
+.faq_main{
+      display: flex;
+    flex-flow: column;
+    width: 80%;
+    top: 15%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    
+}
+frame{
+width: 100%;
+height: 100px;
+
+
+}
+.faqs{
+display: flex;
+flex-flow: column;
+height: 100%;
+
+}
+.faqs > div{
+flex: 1;
+
+}
+.faqHeader{
+    width: 50%;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+line-height: 59px;
+font-size: 36px;
+
+color: #344AA5;
+    
+    
+}
+@media all and (max-width: 1023px) and (min-width: 660px){
+    .questions{
+        padding-top: 5%;
+        width: 100%;
+      
+        display: flex;
+        flex-flow: column;
+        height: 2500px;
+        
+        
+        
+    }
+
+}
+
+@media all and (max-width: 660px) and (min-width: 100px){
+    .questions{
+        padding-top: 5%;
+        width: 100%;
+      
+        display: flex;
+        flex-flow: column;
+        height: 3600px;
+        
+        
+        
+    }
+
+}
+@media all and (max-width: 1440px) and (min-width: 1023px){
+.questions{
+    padding-top: 5%;
+    width: 100%;
+  
+    display: flex;
+    flex-flow: column;
+    height: 2000px;
+    
+    
+    
+}
+}
+.q1{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+line-height: 26px;
+font-size: 16px;
+position: relative;
+padding-top: 20px;
+padding-bottom: 20px;
+
+color: #4A4A4A;
+    
+    
+    
+}
+
+
+
+
+.a2.show{
+    display: block;
+   font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+padding-bottom: 20px;
+line-height: 26px;
+font-size: 16px;
+
+color: #4A4A4A; 
+    
+    
+    
+}
+
+.icon_color{
+    color: #FFBD2B;
+    
+}
+
+@media all and (max-width: 1023px) and (min-width: 600px){
+    .faqHeader{
+        
+        width: 100%
+    }
+    
+    
+.faq_main{
+      display: flex;
+    flex-flow: column;
+    width: 90%;
+    top: 20%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    
+}
+    
+    
+    
+}
+
+@media all and (max-width: 600px) and (min-width: 100px){
+        .faqHeader{
+        
+        width: 100%
+    }
+    
+    
+.faq_main{
+      display: flex;
+    flex-flow: column;
+    top: 15%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    
+}
+    
+    
+    
+    
+    
+}

@@ -1,26 +1,41 @@
-@media all and (max-width: 600px) and (min-width: 100px){
+@media all and (max-width: 660px) and (min-width: 100px){
 
 
 .footer{
-    padding-left: 1%;
+    /*padding-left: 1%;*/
     /*padding-right: 1%;*/
-    background-color: #333333;;
+        background-color: #3A4470;
     position: absolute;
     top: 4126px;
     width: 100vw;
-    height: 436px;
+    height: 280px;
     display: flex;
     flex-flow: row wrap;
     /*justify-content: space-around;*/
     
 }
+
+.footer2{
+    /*padding-left: 1%;*/
+    /*padding-right: 1%;*/
+        background-color: #3A4470;
+    position: absolute;
+    top: 1240%;
+    width: 100vw;
+    height: 280px;
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-around;*/
+    
+}
+
 .branding{
     display: flex;
     flex-flow: column;
 } 
 .about{
  text-align: left;
-padding-top: 54px;
+/*padding-top: 24px;*/
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -32,11 +47,14 @@ position: relative;
 /* left: 5%; */
 flex: 1 4 45%;
 height: 40%; 
-order: 1;
+order: 4;
 }
 
 .contact{
-padding-top: 54px;
+ position: relative;
+ left: -20px;
+ 
+padding-top: 24px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -50,7 +68,7 @@ order: 2;
 }
 
 .support{
-/* padding-top: 54px; */
+ padding-top: 24px; 
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -60,7 +78,7 @@ font-size: 13px;
 color: #FFFFFF;
 flex: 1 4 45%;
 height: 35%;
-order: 3;
+order: 1;
 }
 
 ul{
@@ -74,10 +92,10 @@ display: flex;
 flex: 1 4 45%;
 flex-flow: column;
 width: 100%;
-text-align: left;
+/*text-align: left;*/
 height: 30%;
 
-order: 4;
+order: 3;
 }
 .rectangle{
  background-color: white;
@@ -87,9 +105,25 @@ order: 4;
  width: 25px;
  height: 24px;
 }
+.social_networks2{
+  list-style: none;
+width: 50%;
+ padding-left:  5%;
+ 
+ 
+ 
+}
+.social_networks2 li{
+ 
+ display: inline-block;
+}
+.social_networks2 a{
+ color: white;
+ 
+}
 
 .social_networks{
-
+display: none;
  list-style: none;
 
  padding-right: 25%;
@@ -103,11 +137,11 @@ order: 4;
  
 }
 .footer_logo{
- width: 100%;
+ width: 80%;
  height: 160px;
  /* line-height: 160px; */
 
- text-align: left;
+ text-align: center;
  flex: 1 2 20%;
  color: #FFFFFF;
 
@@ -116,14 +150,17 @@ order: 4;
  width: 100%;
  height: 50%;
  position: relative;
+ display: flex;
+ justify-content: flex-start;
  /* top: 50px; */
 flex: 1 2 40%;
 text-align: right;
 }
-.logo_span{
+.logo_span > a{
 vertical-align: middle;
 display: inline-block;
-padding-right: 15%;
+/*padding-right: 15%;*/
+text-decoration: none;
 font-family: Open Sans Condensed;
 font-style: normal;
 font-weight: bold;
@@ -137,7 +174,7 @@ color: #FFFFFF;
  font-family: Open Sans;
  font-style: normal;
  font-weight: normal;
- line-height: 14px;
+ line-height: 0px;
  font-size: 13px;
 padding-bottom: 10px;
 
@@ -157,35 +194,56 @@ padding-bottom: 10px;
 
 
 @media all and (max-width: 2300px) and (min-width: 1023px){
+ .social_networks2{
+  display: none;
+ }
 
 .footer{
     /*padding-left: 15%;*/
     /*padding-right: 10%;*/
-    background-color: #333333;
+    background-color: #3A4470;
     position: absolute;
   
-    bottom: 0px;
-    top: 490vh;
+    /* bottom: 0px; */
+    top: 2536px;
      width: 100%;
     left: 0%;
-    height: 45vh;
+    height: 210px;
     display: flex;
     flex-flow: row;
     
 }  
+.footer2{
+    /*padding-left: 15%;*/
+    /*padding-right: 10%;*/
+    background-color: #3A4470;
+    position: absolute;
+   top: 595%;
+  
+    /* bottom: 0px; */
+  
+     width: 100%;
+    left: 0%;
+    height: 210px;
+    display: flex;
+    flex-flow: row;
+    
+}  
+
    .branding{
        display: flex;
        flex-flow: column;
    } 
    .about{
+    
     text-align: left;
-padding-top: 80px;
+padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 line-height: 14px;
 font-size: 13px;
-
+cursor: pointer;
 color: #FFFFFF;
 position: relative;
 left: 5%;
@@ -195,7 +253,7 @@ left: 5%;
  }
 
 .contact{
- padding-top: 80px;
+ padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -209,7 +267,7 @@ color: #FFFFFF;
 }
 
 .support{
- padding-top: 80px;
+ padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -251,7 +309,7 @@ display: inline-block;
 
     list-style: none;
   
-    padding-right: 15%;
+    padding-right: 14%;
 }
 .social_networks li{
     position: relative;
@@ -265,7 +323,7 @@ display: inline-block;
 .footer_logo{
     width: 100%;
     height: 160px;
-    line-height: 160px;
+    line-height: 75px;
 
     text-align: right;
     flex: 1 2 60%;
@@ -280,10 +338,11 @@ display: inline-block;
 flex: 1 2 40%;
 text-align: right;
 }
-.logo_span{
+.logo_span > a{
  vertical-align: middle;
  display: inline-block;
- padding-right: 15%;
+ padding-right: 18%;
+ text-decoration: none;
  font-family: Open Sans Condensed;
  font-style: normal;
  font-weight: bold;
@@ -297,9 +356,9 @@ text-align: right;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    line-height: 14px;
+    line-height: 0px;
     font-size: 13px;
-padding-bottom: 10px;
+padding-bottom: 20px;
 
 }
 .listli{
@@ -312,19 +371,38 @@ padding-bottom: 10px;
     mix-blend-mode: normal;
 }
 }
-@media all and (max-width: 1023px) and (min-width: 640px){
+@media all and (max-width: 1023px) and (min-width: 660px){
+ .social_networks2{
+  display: none;
+ }
+ .footer2{
+    /*padding-left: 15%;*/
+    /*padding-right: 10%;*/
+    background-color: #3A4470;
+    position: absolute;
+   top: 780%;
+  
+    /* bottom: 0px; */
+  
+     width: 100%;
+    left: 0%;
+    height: 210px;
+    display: flex;
+    flex-flow: row;
+    
+}  
     
 .footer{
     position: absolute;
     
     padding-left: 0px;
     /*padding-right: 10%;*/
-    background-color: #333333;
+    background-color: #3A4470;
     position: absolute;
     top: 3108px;
     width: 100%;
     left: 0%;
-    height: 292px;
+    height: 160px;
     display: flex;
     flex-flow: row;
     
@@ -335,8 +413,9 @@ padding-bottom: 10px;
        flex-flow: column;
    } 
    .about{
+    display: none;
     text-align: left;
-padding-top: 55px;
+padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -352,7 +431,7 @@ left: 5%;
  }
 
 .contact{
- padding-top: 55px;
+ padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -366,7 +445,7 @@ color: #FFFFFF;
 }
 
 .support{
- padding-top: 55px;
+ padding-top: 30px;
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -408,7 +487,7 @@ display: inline-block;
 
     list-style: none;
   
-    padding-right: 15%;
+    padding-right: 5%;
 }
 .social_networks li{
     
@@ -421,7 +500,7 @@ display: inline-block;
 .footer_logo{
     width: 100%;
     height: 160px;
-    line-height: 160px;
+    line-height: 100px;
 
     text-align: right;
     flex: 1 2 60%;
@@ -429,19 +508,20 @@ display: inline-block;
   
 }
 .social{
-    width: 100%;
+    width: 80%;
     height: 50%;
     position: relative;
-    top: -50px;
+    top: -25px;
 flex: 1 2 40%;
 text-align: right;
 }
-.logo_span{
+.logo_span > a{
  vertical-align: middle;
  display: inline-block;
  padding-right: 15%;
  font-family: Open Sans Condensed;
  font-style: normal;
+ text-decoration: none;
  font-weight: bold;
  line-height: 14px;
  font-size: 20px;
@@ -467,4 +547,10 @@ padding-bottom: 10px;
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
-}
+} 
+
+#logo_color{
+     
+     color: #FFBD2B;
+     
+ }

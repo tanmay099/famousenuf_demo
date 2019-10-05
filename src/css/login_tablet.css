@@ -1,0 +1,505 @@
+@media all and (max-width: 1023px) and (min-width: 660px){
+  .App{
+ width: 100vw;
+    margin: 0;
+    padding: 0;
+height: 3300px;
+background: #FFFFFF;
+ 
+} 
+/* .loginheader{
+  min-height: 80%;
+} */
+  .bussinesManimg2{
+    display: none;
+      }
+
+ .fbtext{
+      flex: 1 2 60%;
+      height: 60px;
+      line-height: 60px;
+    text-align: center;
+  
+
+    
+  }
+ .afterSignup{
+   display: none;
+ }
+ .subscribe_banner_tnc{
+  
+  background: url(../images/Placeholder@3x.png);
+  position: absolute;
+  top: 740%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+text-align: center;
+  height: 307px;
+  /* background-color: #FFB000; */
+  }
+  
+  .inputFieldStyle{
+    background: #FFFFFF;
+    border: 1px solid rgba(74, 74, 74, 0.1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-left: 16px;
+    width: 212px;
+    height: 36.19px;
+  
+   } 
+.man_in_tablet{
+
+  padding-top: 8px;
+
+}
+.atScale{
+  font-family: Open Sans;
+  font-weight: bold;
+}
+.famous_top2{
+  display: flex;
+  flex-flow: row;
+  height: 100%;
+  width: 100%
+  
+}
+.famous_man2{
+  display: none;
+}
+  /* flex: 1 3 10%;
+  display: flex;
+  padding-left: 5%;
+  flex-flow: column; */
+
+
+.famous_man > .parts{
+  justify-content: flex-end;
+  flex:  1 2 50%;
+  padding-top: 40%;
+  padding-bottom: 0%;
+  padding-left: 20px;
+  margin-top: auto;
+  display: none;
+  
+  
+}
+
+.famous_form2{
+  flex: 1;
+  z-index: 3;
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  /*height: 100%;*/
+  /*left: 5%;*/
+  background-color: white;
+    /*for making it card view*/
+        border: 0px solid rgba(0, 0, 0, 0.25);
+/* box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25); */
+border-radius: 0px 0px 0px 0px;
+  
+}
+.form_headers{
+    flex: 1 2 30%;
+    display: flex;
+    /*width: 40%;*/
+        position: relative;
+    left: 40px;
+    width: 300px;
+    flex-flow: row;
+    justify-content: space-around;
+    
+  }
+.Get_demo{
+margin-top: 15%;
+    /*margin-left: 9%;*/
+    font-family: Open Sans;
+    font-style: normal;
+    width: 300px;
+    text-align: left;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #48558E;
+    
+    
+    
+    
+}
+.Get_demo.fd{
+  pointer-events: all;
+ cursor: pointer;
+  color: rgba(74, 74, 74, 0.5);
+
+
+}
+
+.login.show{
+pointer-events: none;
+  color: #48558E;
+
+
+}
+.login{
+width: 150px;
+    cursor: pointer;
+    margin-top: 15%;
+    font-family: Open Sans;
+    font-style: normal;
+    text-align: left;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 24px;
+    color: rgba(74, 74, 74, 0.5);;
+    
+    
+    
+    
+    
+}
+
+.tablet_form{
+  display: flex;
+  flex-flow: row wrap;
+  /*width: 100vw;*/
+  
+}
+
+.tablet_form > div{
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+.tablet_form2{
+  display: flex;
+  flex-flow: row wrap;
+  /*width: 100vw;*/
+  
+}
+
+.tablet_form2 > div{
+  width: 35%;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+.form_sections{
+    flex: 1 2 70%;
+      display: flex;
+  flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 5%;
+    
+    
+}
+.form_sections.hide{
+    display: none;
+    
+}
+.form_sections2{
+display: none;
+    
+    
+}
+.form_sections2.show{
+      flex: 1 2 70%;
+      display: flex;
+  flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 5%;
+    
+}
+.input_style{
+
+    /*padding-top: 10%;*/
+    
+}
+.forgot_pass{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 20px;
+font-size: 14px;
+
+color: #FFBD2B;
+}
+.button_get_demo {
+     width: 160px;
+     padding-left: 16px;
+  margin-top: 5%;
+                position:relative;
+                /*padding-left: :10px 13px;*/
+                cursor: pointer;
+                text-align: center;
+                /*left:-6px;*/
+                font-size: 16px;
+                font-family: Open Sans;
+        font-style: normal;
+font-weight: 600;
+line-height: 38.88px;
+letter-spacing: -0.0228571em;
+ /* border-top-left-radius:  0px;  */
+                border-radius: 4px 4px 4px 4px;
+                color: white;
+               
+                border:0px solid #FFBD2B;
+                background-color: #FFBD2B;
+                  transition: width 1s;
+                  height: 40px;
+}
+.button_get_demo2 {
+     max-width: 160px;
+  margin-top: 39.5%;
+                position:relative;
+                /*padding-left: :10px 13px;*/
+                cursor: pointer;
+                text-align: center;
+                /*left:-6px;*/
+                font-size: 16px;
+                font-family: Open Sans;
+        font-style: normal;
+font-weight: 600;
+line-height: 38.88px;
+letter-spacing: -0.0228571em;
+ /* border-top-left-radius:  0px;  */
+                border-radius: 4px 4px 4px 4px;
+                color: white;
+               
+                border:0px solid #FFBD2B;
+                background-color: #FFBD2B;
+                  transition: width 1s;
+                  height: 40px;
+}
+ .bubbles{
+   
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        max-height: 450px;
+        background-color: transparent;
+        z-index: 4;
+      }
+.famous_chik2{
+  /*top: 15vh;*/
+  flex: 1 3 20%;
+  display: none;
+  position: relative;
+  width: 90%;
+  /*height: 75vh;*/
+  flex-flow: column;
+  
+}
+.parts_bubble{
+  display: flex;
+  flex:  1 2 55%; 
+  justify-content: center;
+  
+  
+}
+
+.parts{
+display: flex;
+  /*justify-content: flex-start;*/
+  flex:  1 2 30%;
+  /*padding-top: 70%;*/
+  
+  /*padding-left: 10%;*/
+  margin-top: auto;
+  
+  
+  
+}
+.famous_girl_post2{
+display: none;
+  flex: 1 3 50%;
+  position: relative;
+  /*top: 20%;*/
+  
+  flex-flow: column;
+}
+.post{
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  bottom: -25px;
+  flex: 1 2 70%;
+  
+}
+.post1{
+
+  flex: 1 2 50%;
+  display: none;
+
+
+   /* ie8 */
+}
+.post3{
+  order: 1;
+    flex: 1 2 40%;
+
+  
+}
+.post2{
+
+  display: none;
+ 
+}
+.post4{
+    order: 2;
+     max-width: 100%;
+    height: auto;
+    width: auto\9;
+  display: block;
+}
+
+.famous_girl_2{
+  justify-content: flex-bottom;
+  display: flex;
+  flex-flow: space-around;
+  flex: 1 2 30%;
+}
+.famous_girl2{
+  display: none;
+}
+.famous_girl_img{
+    max-width: 60%;
+    position: relative;
+    left: 15px;
+    z-index: 4;
+    height: auto;
+    width: auto\9;
+  flex: 1 2 80%;
+}
+.hotchick_img{
+  flex: 1 2 10%;
+  z-index: 4;
+  position: relative;
+  top: -30px;
+  
+  
+}
+
+  .loginheader{
+  background-image: url(../images/desktop_bg.png);
+position: absolute;
+top: 0px;
+background-size: Auto 476px;
+width: 100%;
+    height: 476px;
+  
+  
+  
+}
+
+  
+
+
+.hotchick_img_mob2{
+  display: none;
+}
+
+
+SignupForm{
+  display: none;
+}
+.SignupForm.show{
+height: 100%;
+z-index: 3;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+  .thanku{
+      /* Thank you! */
+
+position: absolute;
+left: 10%;
+
+top: 35.53%;
+bottom: 57.06%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 20px;
+font-size: 24px;
+
+color: #48558E;
+
+
+
+  }
+  .button_get_home {
+    width:  160px;
+    margin-top: 10%;
+    top: 65%;
+    left: 10%;
+                  position:absolute;
+                  /*padding-left: :10px 13px;*/
+                  cursor: pointer;
+                  text-align: center;
+                  /*left:-6px;*/
+                  font-size: 16px;
+                  font-family: Open Sans;
+          font-style: normal;
+  font-weight: 600;
+  line-height: 38.88px;
+  letter-spacing: -0.0228571em;
+   /* border-top-left-radius:  0px;  */
+                  border-radius: 4px 4px 4px 4px;
+                  color: white;
+                 
+                  border:0px solid #FFBD2B;
+                  background-color: #FFBD2B;
+                    transition: width 1s;
+                    height: 40px;
+  }
+
+  .tablet_form.hide {
+
+    display: none;
+    
+  }
+
+  .message{
+/* Enter your work emai */
+
+position: absolute;
+width: 281px;
+height: 53px;
+left: 10%;
+top: 44%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 26px;
+font-size: 16px;
+
+color: #4A4A4A;
+
+
+  }
+  .SignupForm{
+    display: none;
+  }
+
+  
+}
+
+
+
